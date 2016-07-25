@@ -1,0 +1,97 @@
+/*
+Theme Name: TP 2
+Author: Donnadio Veronica
+Version: 1.0
+*/
+
+/* Generales
+----------------------------------------------*/
+body{
+	background-color:#fff;
+	color:#333;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul, li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:#333 !important;;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/* Header | Nav
+----------------------------------------------*/
+#masthead {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding:5% 0 0 0;
+}
+
+nav{
+    position: relative;
+    margin:20px 0;
+    padding:10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.separador {
+	width:80%;
+	margin:0 auto;
+    height: 1px;
+    background-color: #c5c5c5;
+    opacity: 1;
+}
+
+
+/* Content
+----------------------------------------------*/
+#content{
+	width:100%;
+	height: auto;
+	position: relative;
+}
+
+#main{
+	text-align: left;
+	width:60%;
+	padding:50px 0;
+	margin:0 auto;
+}
+
+#secondary{
+	margin:2% 0;
+}
+
+#secondary>section{
+	margin-top:50px;
+}
+
+/* Footer
+----------------------------------------------*/
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #f5f5f5;
+	margin:0;
+	padding:30px 0;
+}
